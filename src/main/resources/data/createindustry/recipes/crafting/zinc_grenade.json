@@ -8,7 +8,7 @@
   ],
   "key": {
     "S": {
-      "item": "createindustry:sulfur_dust"
+      "tag": "forge:dusts/sulfur_dust"
     },
     "A": {
       "item": "createindustry:thermite_grenade"

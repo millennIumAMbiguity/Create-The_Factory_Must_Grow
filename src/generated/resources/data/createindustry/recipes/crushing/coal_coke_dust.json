@@ -2,7 +2,7 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "createindustry:coal_coke"
+      "tag": "forge:coal_coke"
     }
   ],
   "processingTime": 250,

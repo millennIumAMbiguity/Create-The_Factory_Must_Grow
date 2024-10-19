@@ -136,8 +136,10 @@ public class TFMGItems {
             THERMITE_POWDER = REGISTRATE.item("thermite_powder", Item::new).register(),
             STEEL_MECHANISM = REGISTRATE.item("steel_mechanism", Item::new).register(),
 
-            NITRATE_DUST = REGISTRATE.item("nitrate_dust", Item::new).register(),
-            SULFUR_DUST = REGISTRATE.item("sulfur_dust", Item::new).register(),
+            NITRATE_DUST = REGISTRATE.item("nitrate_dust", Item::new)
+                    .tag(AllTags.forgeItemTag("dusts/nitrate")).register(),
+            SULFUR_DUST = REGISTRATE.item("sulfur_dust", Item::new)
+                    .tag(AllTags.forgeItemTag("dusts/sulfur")).register(),
 
             LIMESAND = REGISTRATE.item("limesand", Item::new).register(),
 
@@ -223,7 +225,7 @@ public class TFMGItems {
             BLOCK_MOLD = REGISTRATE.item("block_mold", p -> new CastingMoldItem(p, CastingBasinBlockEntity.MoldType.BLOCK)).properties(p -> p.stacksTo(1)).register(),
             INGOT_MOLD = REGISTRATE.item("ingot_mold", p -> new CastingMoldItem(p, CastingBasinBlockEntity.MoldType.INGOT)).properties(p -> p.stacksTo(1)).register();
     public static final ItemEntry<CoalCokeItem> COAL_COKE = REGISTRATE.item("coal_coke", CoalCokeItem::new)
-            .register();
+            .tag(AllTags.forgeItemTag("coal_coke")).register();
 
     public static final ItemEntry<ScrewdriverItem> SCREWDRIVER = REGISTRATE.item("screwdriver", ScrewdriverItem::new)
             .properties(p -> p.stacksTo(1)

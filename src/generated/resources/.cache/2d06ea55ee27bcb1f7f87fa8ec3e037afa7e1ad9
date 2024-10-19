@@ -1,4 +1,4 @@
-// 1.19.2	2024-07-22T19:15:46.2542473	Registrate Provider for createindustry [Recipes, Advancements, Loot tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+// 1.19.2	2024-10-19T03:53:04.7471554	Registrate Provider for createindustry [Recipes, Advancements, Loot tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
 618a4fde84a56aca00c6990dbde278f8fb76bb1e assets/createindustry/blockstates/accumulator.json
 50db526af77cf0ead08cadfd3f7daa8b84a40312 assets/createindustry/blockstates/air_intake.json
 429437419b2ec98bd716e7ba15583b84da7488d5 assets/createindustry/blockstates/aluminum_bars.json
@@ -1975,8 +1975,11 @@ bb6ed3bebbde28633a04b3c36c5ddfa2b761e2c1 data/forge/tags/items/buckets/naphtha.j
 4d7922c8b7278b29c373a34a531e3ce1d5f762da data/forge/tags/items/buckets/propylene.json
 9fbe71f4776547000044bcc08054bb6ab2da4639 data/forge/tags/items/buckets/slag.json
 94945bea02cca0bfa9c9c05fa16b5533f47024c0 data/forge/tags/items/buckets/steel.json
+a45db4f22a2e882cbe7c28f3d18ba0578999532b data/forge/tags/items/coal_coke.json
 ecf1a4c60ac630afe103f9d1c8bfea432158bdf9 data/forge/tags/items/concrete.json
 8d6fdd619eb49c2a6d8ee3f30138b6aa1c24a9a8 data/forge/tags/items/dusts/coal_coke.json
+4a842f287aff6bf4e2ce511763a6c66595502695 data/forge/tags/items/dusts/nitrate.json
+76cce57cfc447725aed28ead87ed8840bbfe2dde data/forge/tags/items/dusts/sulfur.json
 a5782b1478ab73e6bc6582e4008338de550b3fc6 data/forge/tags/items/factory_floor.json
 6f21498ac0f4c376952c9c596a4813ec0919e966 data/forge/tags/items/ingots/aluminum.json
 25e0089eed475f013f06ea955a40bacdab77340b data/forge/tags/items/ingots/cast_iron.json

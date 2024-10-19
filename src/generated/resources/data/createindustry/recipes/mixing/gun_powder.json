@@ -2,22 +2,22 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "createindustry:nitrate_dust"
+      "tag": "forge:dusts/nitrate"
     },
     {
-      "item": "createindustry:nitrate_dust"
+      "tag": "forge:dusts/nitrate"
     },
     {
-      "item": "createindustry:nitrate_dust"
-    },
-    {
-      "item": "minecraft:charcoal"
+      "tag": "forge:dusts/nitrate"
     },
     {
       "item": "minecraft:charcoal"
     },
     {
-      "item": "createindustry:sulfur_dust"
+      "item": "minecraft:charcoal"
+    },
+    {
+      "tag": "forge:dusts/sulfur"
     }
   ],
   "results": [

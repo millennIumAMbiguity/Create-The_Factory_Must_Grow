@@ -54,12 +54,12 @@ public class MixingGen extends TFMGProcessingRecipeGen {
             .output(I.copperSulfate(), 1)),
     
     gunPowder = create(CreateTFMG.asResource("gun_powder"), b -> b
-            .require(I.nitrateDust())
-            .require(I.nitrateDust())
-            .require(I.nitrateDust())
+            .require(IT.nitrateDust())
+            .require(IT.nitrateDust())
+            .require(IT.nitrateDust())
             .require(I.charcoal())
             .require(I.charcoal())
-            .require(I.sulfurDust())
+            .require(IT.sulfurDust())
             .output(I.gunpowder(), 6)),
     
     liquidAsphalt = create(CreateTFMG.asResource("liquid_asphalt"), b -> b
@@ -97,8 +97,8 @@ public class MixingGen extends TFMGProcessingRecipeGen {
             .output(I.slag(), 9)),
     
     sulfuricAcid = create(CreateTFMG.asResource("sulfuric_acid"), b -> b
-            .require(I.sulfurDust())
-            .require(I.nitrateDust())
+            .require(IT.sulfurDust())
+            .require(IT.nitrateDust())
             .require(F.water(), 500)
             .output(F.sulfuricAcid(), 500)),
     

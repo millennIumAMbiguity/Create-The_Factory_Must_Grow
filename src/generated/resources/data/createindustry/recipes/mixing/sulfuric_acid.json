@@ -2,10 +2,10 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "createindustry:sulfur_dust"
+      "tag": "forge:dusts/sulfur"
     },
     {
-      "item": "createindustry:nitrate_dust"
+      "tag": "forge:dusts/nitrate"
     },
     {
       "amount": 500,

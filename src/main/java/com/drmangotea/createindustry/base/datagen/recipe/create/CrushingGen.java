@@ -18,7 +18,7 @@ public class CrushingGen extends TFMGProcessingRecipeGen {
             .duration(250)),
     
     coalCokeDust = create(CreateTFMG.asResource("coal_coke_dust"), b -> b
-            .require(I.coalCoke())
+            .require(IT.coalCoke())
             .output(I.coalCokeDust(), 1)
             .duration(250)),
     

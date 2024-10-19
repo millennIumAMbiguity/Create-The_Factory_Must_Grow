@@ -99,6 +99,18 @@ public class TFMGRecipeProvider extends RecipeProvider {
         public static TagKey<Item> brassIngot() {
             return TagKey.create(ForgeRegistries.ITEMS.getRegistryKey(), new ResourceLocation("forge", "ingots/brass"));
         }
+        public static TagKey<Item> nitrateDust() {
+            return TagKey.create(ForgeRegistries.ITEMS.getRegistryKey(), new ResourceLocation("forge", "dusts/nitrate"));
+        }
+        public static TagKey<Item> sulfurDust() {
+            return TagKey.create(ForgeRegistries.ITEMS.getRegistryKey(), new ResourceLocation("forge", "dusts/sulfur"));
+        }
+        public static TagKey<Item> coalCokeDust() {
+            return TagKey.create(ForgeRegistries.ITEMS.getRegistryKey(), new ResourceLocation("forge", "dusts/coal_coke"));
+        }
+        public static TagKey<Item> coalCoke() {
+            return TagKey.create(ForgeRegistries.ITEMS.getRegistryKey(), new ResourceLocation("forge", "coal_coke"));
+        }
     }
     
     public static class I {
